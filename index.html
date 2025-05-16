@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top 10 Produits Tendances Amazon 2024</title>
+    <meta name="description" content="Découvrez les 10 produits les plus tendances actuellement sur Amazon">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    
+    <!-- Preload important resources -->
+    <link rel="preload" href="css/style.css" as="style">
+    <link rel="preload" href="js/script.js" as="script">
+</head>
+<body>
+    <!-- Loading Animation -->
+    <div class="loader-wrapper">
+        <div class="loader">
+            <div class="loader-inner">
+                <div class="loader-line-wrap">
+                    <div class="loader-line"></div>
+                </div>
+                <div class="loader-line-wrap">
+                    <div class="loader-line"></div>
+                </div>
+                <div class="loader-line-wrap">
+                    <div class="loader-line"></div>
+                </div>
+                <div class="loader-line-wrap">
+                    <div class="loader-line"></div>
+                </div>
+                <div class="loader-line-wrap">
+                    <div class="loader-line"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <h1 class="header-title">Top 10 Produits Tendances <span>Amazon 2024</span></h1>
+                <p class="header-subtitle">Découvrez les produits les plus populaires du moment</p>
+            </div>
+            <div class="header-illustration">
+                <div class="pulse-circle"></div>
+                <img src="https://via.placeholder.com/150" alt="Illustration Amazon" class="illustration-img" loading="lazy">
+            </div>
+        </div>
+        <div class="wave-shape"></div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <!-- Filters -->
+            <div class="filters">
+                <button class="filter-btn active" data-category="all">Tous</button>
+                <button class="filter-btn" data-category="tech">Tech</button>
+                <button class="filter-btn" data-category="home">Maison</button>
+                <button class="filter-btn" data-category="beauty">Beauté</button>
+                <button class="filter-btn" data-category="fitness">Fitness</button>
+            </div>
+
+            <!-- Products Grid -->
+            <div class="products-grid">
+                <!-- Product 1 -->
+                <div class="product-card" data-category="tech">
+                    <div class="product-badge">Tendance</div>
+                    <div class="product-image">
+                        <img src="https://via.placeholder.com/300x300?text=Produit+1" alt="Produit 1" loading="lazy">
+                        <div class="product-actions">
+                            <button class="action-btn wishlist-btn" aria-label="Ajouter à la liste de souhaits">
+                                <i class="far fa-heart"></i>
+                            </button>
+                            <button class="action-btn quick-view-btn" aria-label="Vue rapide">
+                                <i class="far fa-eye"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <span class="product-category">Électronique</span>
+                        <h3 class="product-title">Écouteurs Sans Fil Bluetooth</h3>
+                        <div class="product-rating">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <span class="rating-count">(4,782)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="current-price">€59.99</span>
+                            <span class="original-price">€79.99</span>
+                            <span class="discount">-25%</span>
+                        </div>
+                        <button class="add-to-cart-btn">Ajouter au panier</button>
+                    </div>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="product-card" data-category="home">
+                    <div class="product-badge bestseller">Best-seller</div>
+                    <div class="product-image">
+                        <img src="https://via.placeholder.com/300x300?text=Produit+2" alt="Produit 2" loading="lazy">
+                        <div class="product-actions">
+                            <button class="action-btn wishlist-btn" aria-label="Ajouter à la liste de souhaits">
+                                <i class="far fa-heart"></i>
+                            </button>
+                            <button class="action-btn quick-view-btn" aria-label="Vue rapide">
+                                <i class="far fa-eye"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <span class="product-category">Maison</span>
+                        <h3 class="product-title">Coussin Ergonomique pour Chaise</h3>
+                        <div class="product-rating">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <span class="rating-count">(3,451)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="current-price">€29.99</span>
+                            <span class="original-price">€39.99</span>
+                            <span class="discount">-25%</span>
+                        </div>
+                        <button class="add-to-cart-btn">Ajouter au panier</button>
+                    </div>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="product-card" data-category="tech">
+                    <div class="product-badge new">Nouveau</div>
+                    <div class="product-image">
+                        <img src="https://via.placeholder.com/300x300?text=Produit+3" alt="Produit 3" loading="lazy">
+                        <div class="product-actions">
+                            <button class="action-btn wishlist-btn" aria-label="Ajouter à la liste de souhaits">
+                                <i class="far fa-heart"></i>
+                            </button>
+                            <button class="action-btn quick-view-btn" aria-label="Vue rapide">
+                                <i class="far fa-eye"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <span class="product-category">Électronique</span>
+                        <h3 class="product-title">Montre Connectée Fitness Tracker</h3>
+                        <div class="product-rating">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <span class="rating-count">(8,236)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="current-price">€89.99</span>
+                            <span class="original-price">€129.99</span>
+                            <span class="discount">-31%</span>
+                        </div>
+                        <button class="add-to-cart-btn">Ajouter au panier</button>
+                    </div>
+                </div>
+
+                <!-- Product 4 -->
+                <div class="product-card" data-category="beauty">
+                    <div class="product-badge">Tendance</div>
+                    <div class="product-image">
+                        <img src="https://via.placeholder.com/300x300?text=Produit+4" alt="Produit 4" loading="lazy">
+                        <div class="product-actions">
+                            <button class="action-btn wishlist-btn" aria-label="Ajouter à la liste de souhaits">
+                                <i class="far fa-heart"></i>
+                            </button>
+                            <button class="action-btn quick-view-btn" aria-label="Vue rapide">
+                                <i class="far fa-eye"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <span class="product-category">Beauté</span>
+                        <h3 class="product-title">Kit de Soins Visage Complet</h3>
+                        <div class="product-rating">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <span class="rating-count">(2,187)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="current-price">€34.99</span>
+                            <span class="original-price">€49.99</span>
+                            <span class="discount">-30%</span>
+                        </div>
+                        <button class="add-to-cart-btn">Ajouter au panier</button>
+                    </div>
+                </div>
+
+                <!-- Product 5 -->
+                <div class="product-card" data-category="fitness">
+                    <div class="product-badge bestseller">Best-seller</div>
+                    <div class="product-image">
+                        <img src="https://via.placeholder.com/300x300?text=Produit+5" alt="Produit 5" loading="lazy">
+                        <div class="product-actions">
+                            <button class="action-btn wishlist-btn" aria-label="Ajouter à la liste de souhaits">
+                                <i class="far fa-heart"></i>
+                            </button>
+                            <button class="action-btn quick-view-btn" aria-label="Vue rapide">
+                                <i class="far fa-eye"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <span class="product-category">Fitness</span>
+                        <h3 class="product-title">Bandes de Résistance Fitness</h3>
+                        <div class="product-rating">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <span class="rating-count">(12,543)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="current-price">€19.99</span>
+                            <span class="original-price">€29.99</span>
+                            <span class="discount">-33%</span>
+                        </div>
+                        <button class="add-to-cart-btn">Ajouter au panier</button>
+                    </div>
+                </div>
+
+                <!-- Product 6 -->
+                <div class="product-card" data-category="tech">
+                    <div class="product-badge new">Nouveau</div>
+                    <div class="product-image">
+                        <img src="https://via.placeholder.com/300x300?text=Produit+6" alt="Produit 6" loading="lazy">
+                        <div class="product-actions">
+                            <button class="action-btn wishlist-btn" aria-label="Ajouter à la liste de souhaits">
+                                <i class="far fa-heart"></i>
+                            </button>
+                            <button class="action-btn quick-view-btn" aria-label="Vue rapide">
+                                <i class="far fa-eye"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <span class="product-category">Électronique</span>
+                        <h3 class="product-title">Chargeur Sans Fil Rapide</h3>
+                        <div class="product-rating">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <span class="rating-count">(5,672)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="current-price">€24.99</span>
+                            <span class="original-price">€34.99</span>
+                            <span class="discount">-29%</span>
+                        </div>
+                        <button class="add-to-cart-btn">Ajouter au panier</button>
+                    </div>
+                </div>
+
+                <!-- Product 7 -->
+                <div class="product-card" data-category="home">
+                    <div class="product-badge">Tendance</div>
+                    <div class="product-image">
+                        <img src="https://via.placeholder.com/300x300?text=Produit+7" alt="Produit 7" loading="lazy">
+                        <div class="product-actions">
+                            <button class="action-btn wishlist-btn" aria-label="Ajouter à la liste de souhaits">
+                                <i class="far fa-heart"></i>
+                            </button>
+                            <button class="action-btn quick-view-btn" aria-label="Vue rapide">
+                                <i class="far fa-eye"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <span class="product-category">Maison</span>
+                        <h3 class="product-title">Lampe LED Intelligente</h3>
+                        <div class="product-rating">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <span class="rating-count">(7,891)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="current-price">€17.99</span>
+                            <span class="original-price">€24.99</span>
+                            <span class="discount">-28%</span>
+                        </div>
+                        <button class="add-to-cart-btn">Ajouter au panier</button>
+                    </div>
+                </div>
+
+                <!-- Product 8 -->
+                <div class="product-card" data-category="beauty">
+                    <div class="product-badge bestseller">Best-seller</div>
+                    <div class="product-image">
+                        <img src="https://via.placeholder.com/300x300?text=Produit+8" alt="Produit 8" loading="lazy">
+                        <div class="product-actions">
+                            <button class="action-btn wishlist-btn" aria-label="Ajouter à la liste de souhaits">
+                                <i class="far fa-heart"></i>
+                            </button>
+                            <button class="action-btn quick-view-btn" aria-label="Vue rapide">
+                                <i class="far fa-eye"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <span class="product-category">Beauté</span>
+                        <h3 class="product-title">Sérum Vitaminé Visage</h3>
+                        <div class="product-rating">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <span class="rating-count">(9,432)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="current-price">€22.99</span>
+                            <span class="original-price">€32.99</span>
+                            <span class="discount">-30%</span>
+                        </div>
+                        <button class="add-to-cart-btn">Ajouter au panier</button>
+                    </div>
+                </div>
+
+                <!-- Product 9 -->
+                <div class="product-card" data-category="fitness">
+                    <div class="product-badge new">Nouveau</div>
+                    <div class="product-image">
+                        <img src="https://via.placeholder.com/300x300?text=Produit+9" alt="Produit 9" loading="lazy">
+                        <div class="product-actions">
+                            <button class="action-btn wishlist-btn" aria-label="Ajouter à la liste de souhaits">
+                                <i class="far fa-heart"></i>
+                            </button>
+                            <button class="action-btn quick-view-btn" aria-label="Vue rapide">
+                                <i class="far fa-eye"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <span class="product-category">Fitness</span>
+                        <h3 class="product-title">Smart Scale Connectée</h3>
+                        <div class="product-rating">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <span class="rating-count">(3,765)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="current-price">€39.99</span>
+                            <span class="original-price">€59.99</span>
+                            <span class="discount">-33%</span>
+                        </div>
+                        <button class="add-to-cart-btn">Ajouter au panier</button>
+                    </div>
+                </div>
+
+                <!-- Product 10 -->
+                <div class="product-card" data-category="home">
+                    <div class="product-badge">Tendance</div>
+                    <div class="product-image">
+                        <img src="https://via.placeholder.com/300x300?text=Produit+10" alt="Produit 10" loading="lazy">
+                        <div class="product-actions">
+                            <button class="action-btn wishlist-btn" aria-label="Ajouter à la liste de souhaits">
+                                <i class="far fa-heart"></i>
+                            </button>
+                            <button class="action-btn quick-view-btn" aria-label="Vue rapide">
+                                <i class="far fa-eye"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <span class="product-category">Maison</span>
+                        <h3 class="product-title">Organisateur de Câbles</h3>
+                        <div class="product-rating">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <span class="rating-count">(6,543)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="current-price">€12.99</span>
+                            <span class="original-price">€19.99</span>
+                            <span class="discount">-35%</span>
+                        </div>
+                        <button class="add-to-cart-btn">Ajouter au panier</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Newsletter -->
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-content">
+                <div class="newsletter-text">
+                    <h2>Restez Informés</h2>
+                    <p>Abonnez-vous pour recevoir les dernières tendances et offres exclusives</p>
+                </div>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Votre email" required>
+                    <button type="submit">S'abonner <i class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>Produits Tendances</h3>
+                    <p>Découvrez chaque semaine les produits les plus populaires sur Amazon.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Pinterest"><i class="fab fa-pinterest-p"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3>Liens Utiles</h3>
+                    <ul>
+                        <li><a href="#">Accueil</a></li>
+                        <li><a href="#">Produits</a></li>
+                        <li><a href="#">Tendances</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Catégories</h3>
+                    <ul>
+                        <li><a href="#">Technologie</a></li>
+                        <li><a href="#">Maison</a></li>
+                        <li><a href="#">Beauté</a></li>
+                        <li><a href="#">Fitness</a></li>
+                        <li><a href="#">Mode</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Contact</h3>
+                    <ul>
+                        <li><i class="fas fa-envelope"></i> contact@amazon-trends.com</li>
+                        <li><i class="fas fa-phone"></i> +33 1 23 45 67 89</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Paris, France</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Amazon Trends. Tous droits réservés.</p>
+                <div class="footer-links">
+                    <a href="#">Confidentialité</a>
+                    <a href="#">Conditions</a>
+                    <a href="#">Cookies</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" aria-label="Retour en haut">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Quick View Modal -->
+    <div class="modal quick-view-modal">
+        <div class="modal-overlay"></div>
+        <div class="modal-content">
+            <button class="modal-close-btn" aria-label="Fermer">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="modal-body">
+                <!-- Content will be loaded via JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+</html>
